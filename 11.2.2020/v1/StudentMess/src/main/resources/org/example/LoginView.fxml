@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="495.0" prefWidth="847.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="495.0" fitWidth="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Img/LoginViewImg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="170.0" fitWidth="196.0" layoutX="481.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Img/AcademyLogo.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="emailText" focusColor="#242157" layoutX="435.0" layoutY="282.0" prefHeight="26.0" prefWidth="288.0" promptText="E-mail" unFocusColor="#242157" />
+      <JFXPasswordField fx:id="passwdText" focusColor="#242157" layoutX="435.0" layoutY="330.0" prefHeight="26.0" prefWidth="288.0" promptText="Hasło" unFocusColor="#242157" />
+      <JFXButton fx:id="LoginBtn" layoutX="645.0" layoutY="381.0" prefHeight="26.0" prefWidth="77.0" style="-fx-background-color: #C9211F;" text="Zaloguj się" textFill="WHITE" />
+      <Label layoutX="566.0" layoutY="440.0" text="Nie masz Konta? " />
+      <Hyperlink layoutX="658.0" layoutY="437.0" text="Rejestracja" />
+      <Label fx:id="textToChange" layoutX="531.0" layoutY="207.0" text="Logowanie">
+         <font>
+            <Font name="Bodoni MT" size="21.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="exitBtn" layoutX="822.0" layoutY="1.0" text="x" />
+      <Label fx:id="loginError" layoutX="519.0" layoutY="248.0" prefHeight="18.0" prefWidth="120.0" textFill="#d70000" />
+   </children>
+</AnchorPane>

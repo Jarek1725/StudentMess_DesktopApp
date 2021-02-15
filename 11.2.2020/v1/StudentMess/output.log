@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.example:Pierwszy >------------------------
+[INFO] Building Pierwszy 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Pierwszy ---
+[INFO] Deleting D:\Programs\Java\Tests\Pierwszy\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Pierwszy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ Pierwszy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\Programs\Java\Tests\Pierwszy\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Pierwszy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Programs\Java\Tests\Pierwszy\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ Pierwszy ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Pierwszy ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Pierwszy ---
+[INFO] Building jar: D:\Programs\Java\Tests\Pierwszy\target\Pierwszy-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Pierwszy ---
+[INFO] Installing D:\Programs\Java\Tests\Pierwszy\target\Pierwszy-1.0-SNAPSHOT.jar to C:\Users\tomas\.m2\repository\org\example\Pierwszy\1.0-SNAPSHOT\Pierwszy-1.0-SNAPSHOT.jar
+[INFO] Installing D:\Programs\Java\Tests\Pierwszy\pom.xml to C:\Users\tomas\.m2\repository\org\example\Pierwszy\1.0-SNAPSHOT\Pierwszy-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.070 s
+[INFO] Finished at: 2020-09-21T10:44:54-10:00
+[INFO] ------------------------------------------------------------------------

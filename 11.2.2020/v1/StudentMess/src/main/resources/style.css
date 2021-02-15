@@ -1,0 +1,10 @@
+#rootPane{
+        -fx-background-image: url("org/example/Img/Backgrounds/7.jpg");
+        -fx-background-repeat: stretch;
+        -fx-background-size: 100% 100%;
+        -fx-background-position: center center;
+}
+#ProfileImage{
+    -fx-border-radius:50%;
+}
+.root { -fx-focus-color: transparent; }

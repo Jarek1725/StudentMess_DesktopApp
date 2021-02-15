@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="535.0" prefWidth="944.0" stylesheets="@../../style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField layoutX="852.0" layoutY="459.0" prefHeight="26.0" prefWidth="2.0" />
+      <VBox layoutX="36.0" prefHeight="535.0" prefWidth="266.0" style="-fx-background-color: #1c1c1c; -fx-border-color: #ebebeb; -fx-border-width: 0px 0px 0px 1px;" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="643.0">
+         <children>
+            <HBox prefHeight="61.0" prefWidth="265.0" style="-fx-background-color: transparent; -fx-border-width: 0px;">
+               <children>
+                  <ImageView fx:id="ProfileImage" fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Img/indeks.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="14.0" top="4.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <VBox prefHeight="50.0" prefWidth="133.0">
+                     <children>
+                        <Label fx:id="UserNameLabel" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets left="7.0" right="3.0" top="11.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="4i" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets left="7.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets top="4.0" />
+               </VBox.margin>
+            </HBox>
+            <VBox fx:id="contactTest" prefHeight="467.0" prefWidth="274.0">
+               <children>
+                  <HBox prefHeight="46.0" prefWidth="219.0" style="-fx-border-width: 0px;">
+                     <children>
+                        <TextField fx:id="searchText" prefHeight="27.0" prefWidth="181.0" promptText="Wyszukaj osoby..." style="-fx-background-color: transparent; -fx-border-width: 1px 1px 1px 1px; -fx-border-color: white; -fx-text-inner-color: white;">
+                           <HBox.margin>
+                              <Insets left="14.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <ImageView fitHeight="20.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Img/loupe.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="15.0" fitWidth="41.0" layoutX="216.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Img/add.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="8.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <Label text="Osoby" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="14.0" top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ScrollPane fx:id="sbForPoeple" prefHeight="382.0" prefWidth="269.0" style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-width: 0px 0px 0px 0px;">
+                     <padding>
+                        <Insets bottom="3.0" top="3.0" />
+                     </padding>
+                     <opaqueInsets>
+                        <Insets right="2.0" />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets right="2.0" />
+                     </VBox.margin>
+                  </ScrollPane>
+               </children>
+               <opaqueInsets>
+                  <Insets right="2.0" />
+               </opaqueInsets></VBox>
+         </children>
+         <padding>
+            <Insets top="8.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets right="2.0" />
+         </opaqueInsets>
+      </VBox>
+      <VBox fx:id="blurVbox" prefHeight="535.0" prefWidth="36.0" style="-fx-background-color: rgba(0, 0, 0, 0.55);">
+         <children>
+            <ImageView fx:id="studentBtn" fitHeight="18.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/user(1).png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="9.0" top="15.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/group(2).png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="7.0" top="15.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/chat(1).png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="7.0" top="15.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/alert.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="8.0" top="14.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fx:id="exitBtn" fitHeight="30.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/cancel.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="9.0" top="362.0" />
+               </VBox.margin>
+            </ImageView>
+         </children></VBox>
+      <AnchorPane fx:id="rightPaneToActions" layoutX="302.0" prefHeight="535.0" prefWidth="642.0" style="-fx-border-width: 0px 0px 0px 0px;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </AnchorPane>
+
+   </children>
+</AnchorPane>
